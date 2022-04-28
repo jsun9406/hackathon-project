@@ -1,0 +1,5 @@
+apiVersion: scheduling.k8s.io/v1beta1
+kind: PriorityClass
+metadata:
+  name: cluster-admin-priority
+description: Used for critical pods that must run for the cluster to handle production workloads.
