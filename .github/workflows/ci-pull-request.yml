@@ -26,7 +26,7 @@ jobs:
       - name: Scan repo with kube-linter
         uses: stackrox/kube-linter-action@v1.0.4
         with:
-          directory: '**/*.yaml'
+          directory: hackathon-project/k8s-manifests/test1.yaml
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # - uses: actions/checkout@v3
 
