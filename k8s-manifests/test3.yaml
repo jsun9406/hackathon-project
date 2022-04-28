@@ -9,10 +9,6 @@ spec:
     spec:
       chart: vault
       version: 0.19.0
-      sourceRef:
-        kind: HelmRepository
-        name: hashi-vault
-        namespace: util
   releaseName: hashi-vault
   values:
     ui:
