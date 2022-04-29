@@ -3,4 +3,4 @@ kind: PriorityClass
 metadata:
   name: cluster-admin-priority
 description: Used for critical pods that must run for the cluster to handle production workloads.
-#value: 1000000000
+value: 1000000000

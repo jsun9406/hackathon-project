@@ -5,14 +5,14 @@ metadata:
   namespace: util
 spec:
   interval: 10m
-#  chart:
-#    spec:
-#      chart: vault
-#      version: 0.19.0
-#      sourceRef:
-#        kind: HelmRepository
-#        name: hashi-vault
-#        namespace: util
+  chart:
+    spec:
+      chart: vault
+      version: 0.19.0
+      sourceRef:
+        kind: HelmRepository
+        name: hashi-vault
+        namespace: util
   releaseName: hashi-vault
   values:
     ui:
